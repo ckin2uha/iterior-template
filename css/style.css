@@ -97,3 +97,42 @@ body{
     height: 40px;
     background-color: #212121;
 }
+.featured{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    line-height: 27px;
+}
+.text-title{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    color: #6c6c6c;
+    border-bottom: 2px solid #6c6c6c;
+    height: 32px;
+    display: inline-block;
+}
+.text-title-active{
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+.explore-all{
+    float: right;
+    width: 158px;
+    height: 13px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+}
+.explore-all a{
+    text-decoration: none;
+    color: #212121;
+}
+.explorer-list{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
