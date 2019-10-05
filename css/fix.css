@@ -8,3 +8,10 @@
     display: table;
     clear: both;
 }
+.fix-arrow{
+    padding-left: 12px;
+    margin-bottom: -1.3px;
+}
+.tp-fix{
+    padding-top: 64px;
+}

@@ -74,11 +74,21 @@ body{
     text-transform: uppercase;
     box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
     border-radius: 23px;
+    border:none;
     background-color: #ffffff;
     text-align: center;
     letter-spacing: 3.6px;
     cursor: pointer;
+    background-image: url(../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 173px;
 }
+.order-us:focus{
+    outline: none;
+    box-shadow: 0 2px 5px 1px rgba(2, 133, 255, 0.35);
+}
+
 .paginations{
     position: absolute;
     width: 1170px;
@@ -131,6 +141,7 @@ body{
 .explore-all a{
     text-decoration: none;
     color: #212121;
+    line-height: 35px;
 }
 .explorer-list{
     padding-top: 50px;
@@ -169,8 +180,27 @@ body{
 .exclusive-description{
     width: 374px;
     height: 36px;
-    padding: 24px 0;
+    padding: 34px 0;
+    font-weight: 300;
     color: #6c6c6c;
     font-size: 14px;
-    font-weight: 300;
+    line-height: 24.04px;
 }
+.trending-products{
+    padding-top: 120px;
+}
+.trending-products{
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 34px;
+}
+.explore-trending{
+    line-height: 44px;
+}
+.trending-products-img{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
