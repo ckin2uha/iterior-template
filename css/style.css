@@ -203,4 +203,12 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
+.hot-deal{
+    position: relative;
+    background-image: url(../img/slider-b5.jpg);
+    height: 800px;
+}
+.hot{
+    color: #e53935;
+    padding-top: 287px;
+}
