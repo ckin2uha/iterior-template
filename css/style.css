@@ -77,6 +77,7 @@ body{
     background-color: #ffffff;
     text-align: center;
     letter-spacing: 3.6px;
+    cursor: pointer;
 }
 .paginations{
     position: absolute;
@@ -135,4 +136,41 @@ body{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+}
+.exclusive{
+    display: flex;
+}
+.exclusive-block{
+    width: 683px;
+    height: 683px;
+}
+.ex-block1{
+    background-image: url(../img/Exclusive-1.jpg);
+}
+.ex-block2{
+    background-image: url(../img/Exclusive-2.jpg);
+}
+.exclive-text{
+    margin-left: 50px;
+}
+.exclusive-title{
+    margin-top: 228px;
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;  
+}
+.exclusive-h2{
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+.exclusive-description{
+    width: 374px;
+    height: 36px;
+    padding: 24px 0;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
 }
