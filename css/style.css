@@ -43,6 +43,12 @@ body{
     font-weight: 700;
     border-bottom: 3px solid #212121;
 }
+.menu-link-active:hover{
+    border-bottom: 3px solid #212121;
+}
+.lupa:hover{
+    border:none;
+}
 .text-slaider{
     margin-top: 238px;
 }
@@ -417,4 +423,51 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.6px;
+}
+/* contact us html */
+
+.h1-text{
+    padding-top: 171px;
+}
+.text-CU{
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+}
+.main-CU{
+
+    display: flex;
+    justify-content: space-between;
+}
+.card-CU{
+    width: 370px;
+    height: 370px;
+    outline: 1px solid #9c9c9c;
+    opacity: 0.9;
+    text-align: center;
+}
+.icon-CU{
+    padding-top: 48px;
+    padding-bottom: 34px;
+}
+.geo-CU{
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.detalis-CU{
+    width: 271px;
+    height: 138px;
+    display: inline-block;
+}
+.title{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+}
+.inform-CU{
+    font-weight: 700;
+    color: #212121;
+    padding-bottom: 20px;
 }
