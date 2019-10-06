@@ -280,3 +280,105 @@ body{
 .img-app{
     padding-top: 33px;
 }
+.footer{
+    margin-top:120px;
+}
+
+.contact-us{
+    float: left;
+}
+
+.title-contact-us{
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding-bottom: 23px;
+}
+.desc-contact p{
+    width: 221px;
+    height: 51px;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+.useful{
+    float: left;
+    padding-left: 80px;
+}
+.text-useful {
+    float: left;
+}
+.text-useful a{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+}
+.useful1{
+    width: 132px;
+    height: 63px;
+    padding-right: 102px;
+}
+.useful2{
+    width: 187px;
+    height: 63px;
+}
+.lets-stay{
+    padding-left: 78px;
+    float: left;
+}
+.text-lets-stay{
+    width: 370px;
+    display: inline-block;
+}
+.text-lets-stay p{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+.input-email{
+    padding-top: 26px;
+    position: relative;
+}
+.input-email input[type="email"]{
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 347px;
+    height: 48px;
+    padding-left: 19px;
+}
+.teleg{
+    position: absolute;
+    width: 21px;
+    height: 17px;
+    margin-top: -35px;
+    margin-left: 335px;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+    padding-bottom: 30px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+.links a{
+    font-size: 28px;
+    color: #6c6c6c;
+    letter-spacing: 5.6px;
+}
+.terms{
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
