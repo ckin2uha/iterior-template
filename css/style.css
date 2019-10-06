@@ -35,6 +35,9 @@ body{
     font-weight: 300;
     text-transform: uppercase;
 }
+.menu-link:hover{
+    border-bottom:1px solid #212121;
+}
 .menu-link-active{
     color: #212121;
     font-weight: 700;
@@ -84,6 +87,11 @@ body{
     background-position: center;
     background-position-x: 173px;
 }
+.order-us:hover{
+    background-color: rgba(33, 33, 33, 0.85);
+    color: white;
+    transition: 0.9s;
+}
 .order-us:focus{
     outline: none;
     box-shadow: 0 2px 5px 1px rgba(2, 133, 255, 0.35);
@@ -102,10 +110,16 @@ body{
     background-color: #c7c7c7;
     border-radius: 50%;
 }
+.circle:hover{
+    background-color: #757575;
+}
 .circle-active{
     margin-bottom: -5px;
     width: 40px;
     height: 40px;
+    background-color: #212121;
+}
+.circle-active:hover{
     background-color: #212121;
 }
 .featured{
@@ -144,9 +158,16 @@ body{
     line-height: 35px;
 }
 .explorer-list{
+    position: relative;
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+}
+.explorer-list img{
+    z-index: 50;
+}
+.explorer-list img:hover{
+    z-index: 0;
 }
 .exclusive{
     display: flex;
@@ -374,6 +395,21 @@ body{
     font-size: 28px;
     color: #6c6c6c;
     letter-spacing: 5.6px;
+}
+.fa{
+    transition: 0.5s;
+}
+.fa-facebook:hover{
+    color:#3b5998;
+}
+.fa-twitter:hover{
+    color:#1da1f2;
+}
+.fa-google-plus:hover{
+    color:#DD4B39;
+}
+.fa-pinterest:hover{
+    color:#e60023;
 }
 .terms{
     color: #6c6c6c;
