@@ -213,6 +213,7 @@ body{
 
 .explorer-list img:hover{
     opacity: 0;
+    transition: 0.9s;
 }
 
 .exclusive{
