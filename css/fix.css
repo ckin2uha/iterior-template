@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html,body{
+    height: 100%;
+}
 
 .clearfix:after{
     content:"";
@@ -14,4 +17,16 @@
 }
 .tp-fix{
     padding-top: 64px;
+}
+.clear-footer{
+    width: 100%;
+    height: 282px;
+}
+.footer{
+    width: 1170px;
+    margin-top: -200px!important;
+}
+.obl{
+    margin: 0 auto;
+    width: 1366px;
 }

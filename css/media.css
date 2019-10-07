@@ -1,0 +1,59 @@
+@media screen and (max-width: 540px){
+    html,
+    body,
+    .content,
+    .header,
+    .main-CU{
+        max-width: 540px;
+    }
+    .padding-site {
+        margin: 0 auto;
+        padding: 65px;
+    }    
+    .content{
+        width: 520px;
+    }
+    .h1-text{
+        padding-top: 20px;
+        width: 370px;
+    }
+    .main-CU{
+        display: block;
+        max-width: 520px;
+        padding: 0 65px;
+    }
+    .card-CU{
+        min-width: 390px;
+        margin-bottom: 10px;
+    }
+    .menu{
+        float: none;
+    }
+    .menu-list{
+        float: none;
+        padding: 7px 0;
+    }
+    .menu-link{
+        list-style-type: none;
+        font-size: 1.5em;
+        float: none;
+    }
+    .obl{
+    }
+    .footer,.obl,.clear-footer{
+        display: block;
+        max-width: 100%;
+    }
+    .useful,.lets-stay{
+        padding-left: 0;
+    }
+    .input-email{
+        padding-top: 0;
+    }
+    .links a{
+        letter-spacing: 18px;
+    }
+    .inform{
+        padding-left: 20px;
+    }
+}

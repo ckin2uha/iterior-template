@@ -4,6 +4,7 @@ body{
 .content{
     width: 1366px;
     margin: 0 auto;
+    min-height: 100%;
 }
 .slaider{
     position: relative;
@@ -348,6 +349,7 @@ body{
 .img-app{
     padding-top: 33px;
 }
+
 .footer{
     margin-top:120px;
 }
