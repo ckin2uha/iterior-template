@@ -82,7 +82,8 @@ body{
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+            box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
     border-radius: 23px;
     border:none;
     background-color: #ffffff;
@@ -97,11 +98,13 @@ body{
 .order-us:hover{
     background-color: rgba(33, 33, 33, 0.85);
     color: white;
+    -webkit-transition: 0.9s;
     transition: 0.9s;
 }
 .order-us:focus{
     outline: none;
-    box-shadow: 0 2px 5px 1px rgba(2, 133, 255, 0.35);
+    -webkit-box-shadow: 0 2px 5px 1px rgba(2, 133, 255, 0.35);
+            box-shadow: 0 2px 5px 1px rgba(2, 133, 255, 0.35);
 }
 
 .paginations{
@@ -168,8 +171,12 @@ body{
 .explorer-list{
     position: relative;
     padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .explorer-list a{
     text-decoration: none;
@@ -209,15 +216,19 @@ body{
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+            box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
 }
 
 .explorer-list img:hover{
     opacity: 0;
+    -webkit-transition: 0.9s;
     transition: 0.9s;
 }
 
 .exclusive{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .exclusive-block{
@@ -269,8 +280,12 @@ body{
 }
 .trending-products-img{
     padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .hot-deal{
     position: relative;
@@ -286,6 +301,8 @@ body{
 }
 
 .exclusive-img{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-left: 30px;
     padding-bottom: 30px;
@@ -430,8 +447,12 @@ body{
     margin-left: 335px;
 }
 .copy{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 59px;
     padding-bottom: 30px;
     color: #6c6c6c;
@@ -446,6 +467,7 @@ body{
     letter-spacing: 5.6px;
 }
 .fa{
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 .fa-facebook:hover{
@@ -479,8 +501,14 @@ body{
 }
 .main-CU{
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .card-CU{
     width: 370px;
@@ -541,8 +569,12 @@ body{
     color: #212121!important;
 }
 .opr-products{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 30px;
 }
 .opr-menu-list-border li{
