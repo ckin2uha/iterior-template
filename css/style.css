@@ -217,7 +217,7 @@ body{
     height: 48px;
     border-radius: 50%;
     -webkit-box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
-            box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+                box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
 }
 
 .explorer-list img:hover{
@@ -585,4 +585,145 @@ body{
 }
 .opr-menu-list-border-active{
     border-bottom: 3px solid #212121 !important;
+}
+
+/* product info styles */
+
+.styleNav{
+    display: flex;
+    justify-content: center;
+    padding-top: 57px;
+}
+.styleNav ul{
+    display: flex;
+    width: 647px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.styleNav li{
+    float: left;
+    justify-content: space-between;
+}
+.styleNav a{
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.styleNav a:hover{
+    border-bottom: 2px solid #212121;
+}
+a.nav-active{
+    color: #212121;
+    border-bottom: 2px solid #212121;
+}
+
+.fullDescription{
+    padding-top: 100px;
+    display: flex;
+}
+.slide ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.slide ul > li > img{
+    padding: 10px;
+    width: 74px!important;
+    height: 74px!important;
+}
+.slide-active{
+    opacity: 0.5;
+}
+.fullDescription img:first-child{
+    width: 570px;
+    height: 570px;
+}
+.descriptions-product{
+    text-align: center;
+}
+.descriptions-product h2{
+    margin-top: 47px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+.descriptions-product h3{
+    margin-top: 23px;
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+@font-face {
+
+    font-family: Gotham-Light;
+    
+    src: url(../fonts/Gotham-Light.otf); 
+    
+    }
+.descriptions-product .price{
+    margin-top: 36px;
+    line-height: 1;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #212121;
+    font-family: Gotham-Light;
+}
+.descriptions-product span:first-child{
+    font-size: 48px!important;
+}
+.descriptions-product span:last-child{
+    font-size: 36px!important;
+}
+.btn-hov{
+    position: relative;
+    margin-top: 31px;
+    margin-bottom: 39px;
+}
+.btn-hov .bt img{
+    position: absolute;
+    margin-top: 23px;
+    margin-left: -175px;
+    opacity: 0;
+}
+.btn-hov .bt:hover img{
+    transition: .5s;
+    opacity: 1;
+}
+.descriptions-product input{
+    width: 510px;
+    height: 71px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+    border: none;
+}
+.descriptions-product input:focus{
+    outline: none;
+    border: none;
+}
+.descriptions-product input:active{
+    box-shadow: none;
+}
+.descriptions-product .text p{
+    text-align: start;
+    padding-top: 15px;
+    font-family: Gotham-Light;
+    line-height: 24.01px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+}
+.related-prod-padding{
+    padding-top: 245px;
 }
